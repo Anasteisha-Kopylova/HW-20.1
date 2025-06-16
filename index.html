@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container my-4">
+    <h1 class="mb-4">ToDoList</h1>
+
+    <form class="js--form d-flex mb-3">
+      <input
+        type="text"
+        name="todo"
+        required
+        class="form-control js--form__input"
+        placeholder="Введи завдання..."
+      />
+      <button type="submit" class="btn btn-primary ms-2">Додати</button>
+    </form>
+
+    <ul class="list-group js--todos-wrapper"></ul>
+  </div>
+  <!-- Модальне вікно -->
+<div class="modal fade" id="taskModal" tabindex="-1" aria-labelledby="taskModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="taskModalLabel">Завдання</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрити"></button>
+      </div>
+      <div class="modal-body" id="modalTaskText">
+        <!-- Текст завдання вставиться тут -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+  <script src="./js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</html>

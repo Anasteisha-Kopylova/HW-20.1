@@ -8,11 +8,24 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bootstrap": "^5.3.6",
     "install": "^0.13.0",
     "jquery": "^3.7.1",
     "npm": "^11.4.2"
-  }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anasteisha-Kopylova/HW-20.1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anasteisha-Kopylova/HW-20.1/issues"
+  },
+  "homepage": "https://github.com/Anasteisha-Kopylova/HW-20.1#readme",
+  "description": ""
 }

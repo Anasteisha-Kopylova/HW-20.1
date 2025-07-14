@@ -1,3 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
+import $ from 'jquery';
+import * as bootstrap from 'bootstrap';
+
 $(document).ready(function () {
   const $form = $(".js--form");
   const $input = $(".js--form__input");
